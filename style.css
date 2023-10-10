@@ -1,0 +1,67 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  margin-left: 30px;
+}
+
+.title__name {
+  font-size: 50px;
+  line-height: 20px;
+}
+.title__count {
+  font-size: 20px;
+}
+
+.search {
+  max-width: 100%;
+  margin-top: 50px;
+  position: relative;
+}
+.search__button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 7px;
+  height: 50px;
+  aspect-ratio: 1;
+  position: absolute;
+}
+.search__input {
+  width: 600px;
+  height: 50px;
+  border: 2px solid #e0e1e9;
+  border-radius: 7px;
+  padding-left: 50px;
+  padding-right: 10px;
+  margin-bottom: 15px;
+}
+
+.list__row {
+  transition: 0.3s;
+}
+.list__row:hover {
+  background: rgba(245, 222, 222, 0.8196078431);
+  transition: 0.3s;
+}
+.list__cell {
+  padding: 2px 26px;
+}
+.list__button {
+  cursor: pointer;
+  border: 2px solid #000000;
+  border-radius: 7px;
+  background: none;
+  padding: 5px;
+  transition: 0.3s;
+}
+.list__button:hover {
+  background: #d1d1d1;
+  transition: 0.3s;
+}/*# sourceMappingURL=style.css.map */
