@@ -2,7 +2,6 @@ const API = "https://pokeapi.co/api/v2/pokemon";
 let arrUsers = [];
 let filterUsers = [];
 
-const $search = document.querySelector(".search");
 const $input = document.querySelector(".search__input");
 const $table = document.querySelector(".list__table");
 
